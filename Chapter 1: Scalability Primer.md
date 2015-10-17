@@ -35,32 +35,32 @@
 	- efficiency is often come at a trade-off; compressing data with increase network efficiency but use more CPU and memory
 
 ## *Scalability is a Business Concern*
-	* 1 second delay in page load will reduce conversion by 7%
-	* Comparing performance and scalability
-	- performance is what an individual experience
-		- the most important performance related metris is response time
-	- scalability is how many users get to experience it. The number of users who has a positive experience. If the application sustain consistent performance for individual users as the number of concurrent users grow, that is scaling
+  * 1 second delay in page load will reduce conversion by 7%
+  * Comparing performance and scalability
+    - performance is what an individual experience
+		  * the most important performance related metris is response time
+    - scalability is how many users get to experience it. The number of users who has a positive experience. If the application sustain consistent performance for individual users as the number of concurrent users grow, that is scaling
 
 ## *Cloud-Native Application*
-	* Cloud Platform Defined
-		- enabled by the illusion of infinite resources and limited by the maximum capacity of individual virtual machine, cloud scaling is horizontal
-		- enabled by short-term resource rental model, it can release resources as easily as add resources
-		- enabled by pay per used model, application only pay for currently allocated resources and all usage cost are transparent
-		- enabled by self-service, on-demand, programmic visioning and releasing resources, cloud scaling is automatable
-		- enabled and constrainted by multitenant services running on commodity hardware, cloud application is optimized for cost rather than reliability; failure is routine but downtime is rare
-		- enabled by rich ecosystem of managed platform services, cloud application deployment is simplified.
-	* Cloud-Native Application Defined
-		- Leveraged cloud platform services for reliable, scalable infrastructure
-		- uses non-blocking asynchronous communication in a loosely coupled architecture 
-		- scales horizontally, adding resources as demand increase, and release as demand decreases
-		- cost-optimize to run efficiently, not wasting resources
-		- handles scaling events without downtime or user experience degradation
-		- handles nodes failure without downtime 
-		- uses geographically distribution to minimize netowrk latency
-		- upgrades without downtime
-		- scales automatically using proactive and reactive actions
-		- monitors and manages application logs even as nodes come and go
-		- it is the application architecture that makes an application cloud-native, not the choice of platform
+  * Cloud Platform Defined
+    - enabled by the illusion of infinite resources and limited by the maximum capacity of individual virtual machine, cloud scaling is horizontal
+    - enabled by short-term resource rental model, it can release resources as easily as add resources
+    - enabled by pay per used model, application only pay for currently allocated resources and all usage cost are transparent
+    - enabled by self-service, on-demand, programmic visioning and releasing resources, cloud scaling is automatable
+    - enabled and constrainted by multitenant services running on commodity hardware, cloud application is optimized for cost rather than reliability; failure is routine but downtime is rare
+    - enabled by rich ecosystem of managed platform services, cloud application deployment is simplified.
+  * Cloud-Native Application Defined
+    - Leveraged cloud platform services for reliable, scalable infrastructure
+    - uses non-blocking asynchronous communication in a loosely coupled architecture 
+    - scales horizontally, adding resources as demand increase, and release as demand decreases
+    - cost-optimize to run efficiently, not wasting resources
+    - handles scaling events without downtime or user experience degradation
+    - handles nodes failure without downtime 
+    - uses geographically distribution to minimize netowrk latency
+    - upgrades without downtime
+    - scales automatically using proactive and reactive actions
+    - monitors and manages application logs even as nodes come and go
+    - it is the application architecture that makes an application cloud-native, not the choice of platform
 		 
     
 		  
