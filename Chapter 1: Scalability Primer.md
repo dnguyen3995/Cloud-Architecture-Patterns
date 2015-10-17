@@ -33,12 +33,14 @@
 		- don't use them up so fast
 		- adding more of them
 		- efficiency is often come at a trade-off; compressing data with increase network efficiency but use more CPU and memory
+
 ## *Scalability is a Business Concern*
 	* 1 second delay in page load will reduce conversion by 7%
 	* Comparing performance and scalability
 		- performance is what an individual experience
 			- the most important performance related metris is response time
 		- scalability is how many users get to experience it. The number of users who has a positive experience. If the application sustain consistent performance for individual users as the number of concurrent users grow, that is scaling
+
 ## *Cloud-Native Application*
 	* Cloud Platform Defined
 		- enabled by the illusion of infinite resources and limited by the maximum capacity of individual virtual machine, cloud scaling is horizontal
@@ -60,5 +62,5 @@
 		- monitors and manages application logs even as nodes come and go
 		- it is the application architecture that makes an application cloud-native, not the choice of platform
 		 
-		 		
+    
 		  
